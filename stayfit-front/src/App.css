@@ -1,0 +1,194 @@
+@import "~bootstrap";
+
+.menuBtn {
+    border: 2px green solid;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menuBtn:hover {
+    background-color: #9cef9c;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("fast-food.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    overflow-wrap: break-word;
+    white-space: initial;
+}
+
+@media only screen and (max-width: 992px) {
+    tr {
+        font-size: 12px;
+    }
+
+    th {
+        text-align: center;
+    }
+}
+
+.container {
+    /* background: rgba(255, 255, 255, 0.4);*/
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+
+.logOutBtn {
+    border: 2px red solid;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.logOutBtn:hover {
+    background-color: #e5acac;
+}
+
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header {
+    padding-top: 2vh;
+    text-align: center;
+}
+
+#centerNav {
+    width: 100%;
+}
+
+#noBackgroundNav {
+    background: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.invisible-scrollbar {
+    display: block;
+    overflow: auto;
+
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+
+}
+
+thead tr:nth-child(1) th {
+    background: #2a2828;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+#btnid {
+    color: green;
+}
+
+#btnid:hover {
+    color: white;
+    background: green;
+}
+
+#btnidWlg {
+    color: red;
+}
+
+#btnidWlg:hover {
+    color: white;
+    background: red;
+}
+
+#btnSbmt {
+    width: 100% !important;
+    margin: 2% auto !important;
+    text-align: center;
+}
+
+.filters-bar {
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+}
+
+article {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    overflow-y: auto;
+    padding: 1vh;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a:active {
+    background-color: #008000 !important;
+}
+
+a:hover, li:hover a {
+    color: inherit !important;
+}
+
+#plusIcon {
+    height: 5vh;
+    margin-top: 3vh;
+}
+
+.formCreateMeal {
+    text-align: center;
+
+}
+
+.flexBoxWrapperCreateMeal {
+    display: flex;
+    margin-top: 5px;
+}
+
+.css-2b097c-container{
+    width: 100%;
+}
+.css-2613qy-menu{
+    z-index: 10000;
+}
+
+#plusIcon:hover{
+    transform: scale(1.1);
+}
+
+#alert{
+    display: block;
+    position:fixed;
+    font-size:4vw;
+    top:50%;
+    left:50%;
+    width:700px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left:-350px;
+    color:red;
+    text-align:center;
+}
